@@ -15,7 +15,8 @@ public class Main {
             sum = sum + mod;
             n = n/10; // n is being reassigned, n is being divided by 10 and then goes back to the while loop
             // System.out.println(mod); //prints the remainder of mod
+            result = product - sum;
         }
-        return product;
+        return result;
     }
 }
