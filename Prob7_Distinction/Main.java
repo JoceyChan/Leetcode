@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
+    
     public int numJewelsInStones(String J, String S) {
         Scanner scan = new Scanner(System.in);
         System.out.print("J = ");
@@ -8,5 +9,9 @@ public class Main {
 
         System.out.print("S = ");
         String s = scan.nextLine();
+
+        for(int i = 0; i < s.length(); i++){
+            System.out.print();
+        }
     }
 }

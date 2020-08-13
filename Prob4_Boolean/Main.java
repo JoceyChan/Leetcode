@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 public class Main{
-    public static List <Boolean> main(int[] candies, int extraCandies){
+    public static void main(String[] args){
         kidsWithCandies(new int[]{2,3,5,1,3}, 3);
 
     } 
@@ -9,7 +9,7 @@ public class Main{
        int maxCandies = 0;
         for(int i = 0; i < candies.length; i++){
             if(candies[i] > maxCandies){
-                maxCandies = candies[i];
+                candies[i] = maxCandies;
                 System.out.println(maxCandies);
             } 
         }
