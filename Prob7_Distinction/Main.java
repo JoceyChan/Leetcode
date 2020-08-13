@@ -1,3 +1,4 @@
+package Prob7_Distinction;
 import java.util.Scanner;
 
 public class Main {
