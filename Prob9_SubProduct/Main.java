@@ -1,4 +1,7 @@
 import java.util.*;
+
+// Time: O(n) if the loop variables is incremented / decremented by a constant amount
+// Space: O(n) where n is the number given by the user
 public class Main {
     public static void main(String[] args) {
         System.out.println(subtractProductAndSum(234));
