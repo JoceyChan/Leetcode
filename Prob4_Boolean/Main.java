@@ -8,12 +8,10 @@ public class Main{
     public static List <Boolean> kidsWithCandies(int[] candies, int extraCandies){
        int maxCandies = 0;
         for(int i = 0; i < candies.length; i++){
-            if(candies[i] > maxCandies){
-                candies[i] = maxCandies;
-                System.out.println(maxCandies);
-            } 
+            for(int j = 0; j < candies.length; j++){
+            }
         }
-        return true;
+        return candies;
     }
 
 }
