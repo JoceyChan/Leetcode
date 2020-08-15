@@ -6,6 +6,8 @@ public class Main{
         kidsWithCandies(new int[]{2,3,5,1,3}, 3);
 
     } 
+    // Time Complexity: O(n^2) // nested for loops going through array
+    // Space Complexity: O(n) // created Array list therefore, O(n)
     public static List <Boolean> kidsWithCandies(int[] candies, int extraCandies){       
         ArrayList<Boolean> output = new ArrayList<Boolean>();
         boolean isGreaterThanTheRest = true;
