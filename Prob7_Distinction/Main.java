@@ -6,7 +6,7 @@ public class Main {
         numJewelsInStones("z", "ZZ");
     }
     // Time: O(n^2)
-    // Space: O(n) 
+    // Space: O(1) //O(n) is when new array is created
     public static int numJewelsInStones(String J, String S) {
      int count = 0;
 
