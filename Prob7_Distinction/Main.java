@@ -5,7 +5,8 @@ public class Main {
         numJewelsInStones("aA", "aAAbbbb"); //Calling method
         numJewelsInStones("z", "ZZ");
     }
-    
+    // Time: O(n^2)
+    // Space: O(n) 
     public static int numJewelsInStones(String J, String S) {
      int count = 0;
 
