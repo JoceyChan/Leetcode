@@ -11,7 +11,7 @@ public class Main {
         
         for (int i = 0; i < nums.length; i++){
             for(int j = 0; j < nums.length; j++){
-                if(nums[i] + nums[j] == target && nums[j] != nums[i]){
+                if(nums[i] + nums[j] == target && j != i){
                     indices[0] = i;
                     indices[1] = j;
                     return indices;
