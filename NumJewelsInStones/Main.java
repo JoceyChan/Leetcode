@@ -1,4 +1,3 @@
-package NumJewelsInStones;
 import java.util.Scanner;
 
 public class Main {
