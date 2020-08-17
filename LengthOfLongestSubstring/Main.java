@@ -10,7 +10,14 @@ public class Main {
         char[] dup = s.toCharArray();
 
         for(int i = 0; i < s.length(); i++){
-            System.out.println(dup[i]);     
+            if(dup[i] != dup[i+1]){
+                System.out.println(dup[i]);
+                count++;   
+            }
+            else if(dup[i] == dup[i+1]){
+                break;
+            } 
         }
-    return 0;
+    System.out.println(count);
+    return count;
 }}
