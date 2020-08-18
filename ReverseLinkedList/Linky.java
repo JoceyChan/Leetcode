@@ -3,6 +3,19 @@ import java.util.LinkedList;
 public class Linky {
     public static void main(String[] args) {
     }
+    public Node reverseList(Node head) {
+        Node next = null;
+        Node prev = null;
+        Node current = head; 
+        while(current != null){
+            next = current.next; 
+            current.next = prev; 
+            prev = current;
+            current = next;
+        }
+        System.out.println(prev);
+        return prev;
+    }
     public class Node{
         Node next;
         int data;
