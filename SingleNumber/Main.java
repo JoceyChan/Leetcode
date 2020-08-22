@@ -8,3 +8,4 @@ public class Main {
     public static int singleNumber(int[] nums){
         HashMap<Integer, Integer> hash_table = new HashMap<Integer, Integer>();//creates HashMap
     }
+}
