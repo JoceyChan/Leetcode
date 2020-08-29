@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args){
-
+        getHint("1807", "7810");
     }
     public static String getHint(String secret, String guess){
         for(int i = 0; i < secret.length(); i++){
@@ -10,5 +10,6 @@ public class Main {
                 }
             }
         }
+        return secret;
     }
 }
