@@ -3,11 +3,15 @@ public class Main {
         getHint("1807", "7810");
     }
     public static String getHint(String secret, String guess){
+        int count = 0;
         for(int i = 0; i < secret.length(); i++){
-            for(int j = 0; j < guess.length(); j++){
-                if(secret.charAt(i) == guess.charAt(j)){
-                    System.out.println("equal");
-                }
+            if(secret.charAt(i) == guess.charAt(i)){ 
+                // System.out.println(secret.charAt(i) + "equal" + guess.charAt(i));
+                System.out.println("A");
+                count++;
+            }
+            else if(secret.charAt(i) != guess.charAt(i)){
+                System.out.println("B");
             }
         }
         return secret;
