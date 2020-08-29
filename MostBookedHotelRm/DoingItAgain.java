@@ -5,6 +5,8 @@ public class DoingItAgain {
         mostBookedHotelRoom(new String[]{"+1A", "+3E", "-1A", "+4F", "+1A", "-3E"});
     }
     public static void mostBookedHotelRoom(String[] array){
+        HashMap<String, String> booked = new HashMap<String, String>();
+
         int counting = 1;
         int max = 0;
         String mostBooked = "";
