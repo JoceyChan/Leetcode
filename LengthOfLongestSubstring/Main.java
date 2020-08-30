@@ -7,7 +7,8 @@ public class Main {
         // lengthOfLongestSubstring("bbbbb");
         // lengthOfLongestSubstring("pwwkew");
     }
-    //public boolean contains  (String str)
+    // Time complexity: O(n)
+    // Space COmplexity: O(1)
     public  static int lengthOfLongestSubstring(String s) {
         Set<Character> set = new HashSet<>();
 
