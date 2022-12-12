@@ -18,6 +18,6 @@ public class Main {
                 }
             }
         }    
-        return new int[]{-1, -1};
+        return new int[]{-1, -1}; // can also just return null
     }
 }
