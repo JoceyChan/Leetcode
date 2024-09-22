@@ -9,9 +9,10 @@
 
 public class Main {
     public static void main(String args[]){
-        isAnagram(anagram, nagaram);
+        isAnagram("anagram", "nagaram");
     }
-    public boolean isAnagram(String s, String t) {
-        
+    public static boolean isAnagram(String s, String t) {
+        System.out.println(s);
+        return false;
     }
 }
