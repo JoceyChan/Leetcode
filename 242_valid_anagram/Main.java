@@ -14,9 +14,6 @@ public class Main {
         // isAnagram("rat", "car");
         // isAnagram("ab", "a");
 
-        //Optimized Vz
-        isAnagramOptimized("anagram", "nagaram");
-        isAnagramOptimized("rat", "cat");
     }
     public static boolean isAnagram(String s, String t) {
 
@@ -41,11 +38,6 @@ public class Main {
             }
         }
         System.out.println("true");
-        return true;
-    }
-
-    public static boolean isAnagramOptimized(String s, String t){
-
         return true;
     }
 
