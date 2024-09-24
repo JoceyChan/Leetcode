@@ -41,12 +41,12 @@ public class Main {
     }
 }
 
-/* 
-    Time Complexity: O(nlogn) 
-        O(n) + O(n) + O(nlogn) + O(nlogn) + O(n) + O(n) 
-        O(n) + O(nlogn)
-        O(nlogn)
-    Space Complexity: O(n)
-            O(n) + O(n) 
-            O(n)
+/*  Brute Force:
+        Time Complexity: O(nlogn) 
+            O(n) + O(n) + O(nlogn) + O(nlogn) + O(n) + O(n) 
+            O(n) + O(nlogn)
+            O(nlogn)
+        Space Complexity: O(n)
+                O(n) + O(n) 
+                O(n)
  */
