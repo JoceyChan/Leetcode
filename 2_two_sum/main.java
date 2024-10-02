@@ -45,3 +45,7 @@ public class Main {
         return indices;
     }
 }
+/* Brute Force Time & Space Complexity:
+    Time Complexity: O(n^2)
+    Space Complexity: O(1)
+ */
