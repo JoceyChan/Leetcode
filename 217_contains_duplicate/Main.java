@@ -18,6 +18,26 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args){
-        containsDuplicate();
+        int[] nums = new int[]{1, 2, 3, 1};
+        containsDuplicateBF(nums);
+    }
+
+    // Brute Force
+    public static boolean containsDuplicateBF(int[] nums){
+        Arrays.sort(nums);
+        for(int i = 0; i < nums.length - 1; i++){
+            if(nums[i] == nums[i + 1]){
+                System.out.println("true");
+                return true;
+            }
+        }
+        System.out.println("false");
+        return false;
     }
 }
+
+/*
+    Brute Force:
+        Time Complexity: O(nlogn)
+        Space Complexity: O(n)
+ */
